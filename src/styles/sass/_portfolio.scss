@@ -1,0 +1,54 @@
+.container-portfolio {
+  max-width: 97.8rem;
+  margin: 0 auto;
+}
+
+.projetos {
+  gap: 5.4rem;
+}
+
+.projeto-img {
+  width: 29rem;
+  height: 16.1rem;
+}
+
+.projeto-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.projeto-title {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--white);
+  font-weight: 600;
+
+  text-align: center;
+
+  margin: 2rem auto;
+
+  width: 20rem;
+  transition: ease 0.3s;
+}
+
+.projeto:hover .projeto-title {
+  background-color: var(--blue);
+}
+
+.projeto-subtitle a {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  text-align: center;
+
+  color: #b5b5b5;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}

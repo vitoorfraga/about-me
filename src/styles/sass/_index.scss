@@ -1,0 +1,22 @@
+.contato-icones {
+  margin-top: 4.3rem;
+  gap: 3.8rem;
+  flex-wrap: wrap;
+}
+
+.icone {
+  width: 80px;
+  height: 80px;
+  background-color: var(--white);
+  border-radius: 0.4rem;
+
+  transition: ease 0.2s;
+}
+
+.icone a {
+  padding: 3rem;
+}
+
+.icone:hover {
+  background-color: var(--gray);
+}
