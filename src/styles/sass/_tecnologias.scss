@@ -1,16 +1,10 @@
-.container-tecnologias {
-  max-width: 43.8rem;
-  margin: 0 auto;
-
-  padding: 1rem;
-}
-
-.tecnologias-s1 {
+.tecnologias {
+  width: 43.4rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-
   gap: 3.8rem;
+
+  text-align: center;
 }
 
 .tecnologia-icon {
@@ -20,6 +14,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin: 0 auto;
 }
 
 .tecnologia-img {
@@ -42,6 +38,8 @@
 
   font-size: 1.4rem;
   font-weight: 700;
+
+  display: block;
 }
 
 .diviser {
